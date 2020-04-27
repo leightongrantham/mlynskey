@@ -1,5 +1,5 @@
 import React from 'react'
-import {graphql} from 'gatsby'
+import { graphql } from 'gatsby'
 import {
   mapEdgesToNodes,
   filterOutDocsWithoutSlugs,
@@ -87,17 +87,10 @@ const IndexPage = props => {
     <Layout>
       <SEO title={site.title} description={site.description} keywords={site.keywords} />
       <Container>
-        <h1 hidden>Welcome to {site.title}</h1>
-        {projectNodes && (
-          <ProjectPreviewGrid
-            title='Latest projects'
-            nodes={projectNodes}
-            browseMoreHref='/archive/'
-          />
-        )}
+        <h1>{ site.title }</h1>
       </Container>
     </Layout>
   )
 }
 
-export default IndexPage
+export default IndexPage;

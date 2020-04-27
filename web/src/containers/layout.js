@@ -8,10 +8,10 @@ const query = graphql`
       title
     }
   }
-`
+`;
 
 function LayoutContainer (props) {
-  const [showNav, setShowNav] = useState(false)
+  const [showNav, setShowNav] = useState(false);
   function handleShowNav () {
     setShowNav(true)
   }
@@ -41,4 +41,4 @@ function LayoutContainer (props) {
   )
 }
 
-export default LayoutContainer
+export default LayoutContainer;

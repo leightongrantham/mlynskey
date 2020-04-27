@@ -25,6 +25,6 @@ const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
       </nav>
     </div>
   </div>
-)
+);
 
-export default Header
+export default Header;
