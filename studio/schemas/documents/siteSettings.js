@@ -15,6 +15,21 @@ export default {
       title: 'Title'
     },
     {
+      name: 'navItem1',
+      type: 'string',
+      title: 'Nav Item 1',
+    },
+    {
+      name: 'navItem2',
+      type: 'string',
+      title: 'Nav Item 2',
+    },
+    {
+      name: 'navItem3',
+      type: 'string',
+      title: 'Nav Item 3',
+    },
+    {
       name: 'description',
       type: 'text',
       title: 'Description',
